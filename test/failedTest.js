@@ -1,6 +1,3 @@
-
-
-
 describe('Failed test', function() {
   // getInstance() is removed since protractor v1.5.0
   ptor = (protractor.getInstance)? protractor.getInstance():browser;
