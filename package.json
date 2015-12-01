@@ -1,7 +1,7 @@
 {
   "name": "grunt-protractor3-runner",
   "description": "A Grunt plugin for running protractor v3.x and above",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "homepage": "https://github.com/mattfritz/grunt-protractor3-runner",
   "author": {
     "name": "Matt Fritz",
