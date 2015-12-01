@@ -1,23 +1,23 @@
 {
-  "name": "grunt-protractor-runner",
-  "description": "A Grunt plugin for running protractor runner.",
+  "name": "grunt-protractor3-runner",
+  "description": "A Grunt plugin for running protractor v3.x and above",
   "version": "2.1.0",
-  "homepage": "https://github.com/teerapap/grunt-protractor-runner",
+  "homepage": "https://github.com/mattfritz/grunt-protractor3-runner",
   "author": {
-    "name": "Teerapap Changwichukarn",
-    "email": "teerapap.c@gmail.com"
+    "name": "Matt Fritz",
+    "email": "mfritzer@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/teerapap/grunt-protractor-runner.git"
+    "url": "git://github.com/mattfritz/grunt-protractor3-runner.git"
   },
   "bugs": {
-    "url": "https://github.com/teerapap/grunt-protractor-runner/issues"
+    "url": "https://github.com/mattfritz/grunt-protractor3-runner/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/teerapap/grunt-protractor-runner/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mattfritz/grunt-protractor3-runner/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",

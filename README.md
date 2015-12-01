@@ -1,29 +1,29 @@
-# grunt-protractor-runner
+# grunt-protractor3-runner
 
-[![Build Status](https://travis-ci.org/teerapap/grunt-protractor-runner.svg?branch=master)](https://travis-ci.org/teerapap/grunt-protractor-runner)
+[![Build Status](https://travis-ci.org/mattfritz/grunt-protractor3-runner.svg?branch=master)](https://travis-ci.org/mattfritz/grunt-protractor3-runner)
 
 > A Grunt plugin for running [Protractor](https://github.com/angular/protractor) runner.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.1` and Protractor `2.x.x`
+This plugin requires Grunt `~0.4.1` and Protractor `3.x.x`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-protractor-runner --save-dev
+npm install grunt-protractor3-runner --save-dev
 ```
 
 This plugin will install `protractor` module locally as a normal dependency.
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-protractor-runner');
+grunt.loadNpmTasks('grunt-protractor3-runner');
 ```
 
 Finally you need a Selenium server. If you don't have one set up already, you can install a local standalone version with this command:
 
 ```shell
-./node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update
+./node_modules/grunt-protractor3-runner/node_modules/protractor/bin/webdriver-manager update
 ```
 
 ## The "protractor" task
@@ -163,6 +163,8 @@ You need to install/update selenium webdriver for protractor.
 
 ## Release History
 
+* 3.0.0
+  * Add support for protractor v3.x
 * 2.1.0
   * Add `options.webdriverManagerUpdate` option (#125)
   * Fix support for object option via command-line (#116)
